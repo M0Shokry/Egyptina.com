@@ -1,0 +1,1082 @@
+/* From Uiverse.io by alexmaracinaru */ 
+.card {
+    width: 190px;
+    background-color:rgb(219, 217, 217);
+    padding: .4em;
+    border-radius: 10px;
+    height: 220px;
+    opacity: 200%;
+  
+    
+  }
+  
+  .card-image {
+    background-image: url(./5942569922896972171.jpg);
+    width: 100%;
+    height: 130px;
+    border-radius: 6px 6px 0 0;
+    background-size: cover;
+  }
+  
+  .card-image:hover {
+    transform: scale(0.98);
+  }
+   
+ 
+ #card2img{
+background-image: url(./5942569922896972174.jpg); 
+background-size: cover;
+
+}
+.cotain{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+gap: 80px;
+margin-top: 80px;
+
+}
+.padg{
+  background-image: url(./5962884293573331107.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+/* From Uiverse.io by Damithkumara */ 
+.ww {
+  padding: 0.9em 1.8em;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 4px;
+  color: transparent;
+  border: 3px solid gray;
+  font-size: 14px;
+  position: relative;
+  font-family: inherit;
+  background: transparent;
+  cursor: pointer;
+  margin-left: 30px;
+  margin-top: 20px;
+  border-radius: 5px;
+ 
+}
+
+.ww::before {
+  content: " click here!";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #363636;
+  color: gray;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  transition: all 0.5s;
+}
+
+.ww:hover::before {
+  left: 100%;
+  transform: scale(0) rotateY(360deg);
+  opacity: 0;
+}
+
+.ww::after {
+  content: " click here!";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: #363636;
+  color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+  transform: scale(0) rotateY(0deg);
+  opacity: 0;
+}
+
+.ww:hover::after {
+  left: 0;
+  transform: scale(1) rotateY(360deg);
+  opacity: 1;
+}
+
+/* تنسيق الشريط العلوي */
+.navbar {
+  position: fixed; /* تثبيت الشريط في الأعلى */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7); /* لون أسود شفاف */
+  padding: 15px 0;
+  z-index: 10000000; /* لضمان بقاءه فوق المحتوى */
+}
+
+/* تنسيق القائمة داخل الشريط */
+.navbar ul {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+/* تنسيق الروابط */
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+/* تأثير عند تمرير الماوس على الرابط */
+.navbar ul li a:hover {
+  color: #ffcc00; /* تغيير اللون عند التمرير */
+}
+#card3img{
+  background-image: url(./5942569922896972301.jpg); 
+  background-size: cover;}
+
+  #card4img{
+    background-image: url(./5942569922896972302.jpg); 
+    background-size: cover;}
+    #card5img{
+      background-image: url(./5942569922896972305.jpg); 
+      background-size: cover;}
+      #card6img{
+        background-image: url(./5942569922896972308.jpg); 
+        background-size: cover;}
+        #card7img{
+          background-image: url(./5944821722710655612.jpg); 
+          background-size: cover;}
+          #card8img{
+            background-image: url(./5965236226254554876.jpg); 
+            background-size: cover;}
+
+            /* ccccccccccccccccccccccccccc*/
+.cairo{
+  width: 90%;
+  height:90%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-image: url(./5962884293573331102.jpg);
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+
+}
+
+/* From Uiverse.io by Tiagoadag */ 
+.card2{
+  width: 750px;
+  height: 254px;
+  background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+  border-radius: 20px;
+  transition: all .3s;
+  z-index: 1000;
+  margin-top: 70px;
+  box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+  display: flex;
+  
+  
+ }
+ 
+ .card3 {
+  width: 750px;
+  height: 254px;
+  background-color: #1a1a1a;
+  border-radius:10px;
+  transition: all .2s;
+  z-index: 1000;
+  
+ }
+ 
+ .card3:hover {
+  transform: scale(0.98);
+  border-radius: 20px;
+  
+ }
+ 
+ .card2:hover {
+  box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+ 
+ }
+ .card3{
+  background-image: url(./IMG_1457.jpg);
+  background-size: 100%;
+  filter: brightness(100%);
+  width: 750px;
+  height: 255px;
+  
+  
+ }
+.card3 .hcairo{
+color: white;
+margin-left: 10px;
+margin-top: 20px;
+}
+.h3cairo{
+  color: white;
+  margin-top: 30px;
+  margin-left: 20px;
+ 
+}
+.h3cairo2{
+  color: rgb(255, 255, 255);
+margin-left: 10px;
+margin-top: 20px;
+}
+.h33cairo{
+margin-left: 15px;
+color: rgb(0, 0, 0);
+}
+.pc{
+  color:white;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+ 
+}
+#cairo33{
+  width: 750px;
+  height: 310px;
+  background-image: url(./5962884293573331101.jpg);
+  background-size: 100%;
+  filter: brightness(70%);
+}
+#cairo22{
+  width: 750px;
+  height: 310px;
+}
+
+#thethirdcard1
+{
+  width: 750px;
+  height: 340px;
+}
+#thethirdcard2{
+  width: 750px;
+  height: 340px;
+ 
+  background-image: url(./5947243233862075692.jpg);
+  background-size: cover;
+  filter: brightness(60%);
+}
+.thethirdcardh3{
+  color: white;
+  margin-left: 20px;
+  margin-bottom:  100px;
+}
+#fourcard1{
+
+width: 750px;
+  height: 430px;
+ 
+}
+#fourcard2{
+
+  width: 750px;
+    height: 430px;
+    background-image: url(./5949495033675761002.jpg);
+  background-size: cover;
+  filter: brightness(60%);
+   
+  }
+ .fourcardh1{
+  color: white;
+  margin-left: 20px;
+ }
+ .h33{
+color: white;
+margin-left: 20px;
+ }
+ .h44{
+  color: white;
+  margin-left: 20px;
+ }
+.h222{
+  color: white;
+}
+.h111{
+color: black;
+}
+
+#fivecard1{
+  width: 780px;
+  height: 740px; 
+}
+#fivecard2{
+  width: 780px;
+  height: 740px; 
+  background-image: url(./5951944986100615694.jpg);
+  background-size: cover;
+}
+.fivecardh3{
+  color: white;
+}
+.h355{
+  color: white;
+  margin-left: 30px;
+
+}
+.h5555{
+  color: white;
+  margin-left: 30px;
+}
+.end2{
+  color: white;
+  margin-left: 30px;
+}
+.h555{
+  margin-left: 15px;
+}
+#sixcard1{
+  width: 800px;
+  height: 850px; 
+}
+#sixcard2{
+  width: 800px;
+  height: 850px; 
+ background-image: url(./5951944986100615734.jpg);
+ background-size: cover;
+}
+.hcairoo6{
+  color: rgb(7, 7, 7);
+}
+.sixh31{
+  color: white;
+  margin-left: 20px;
+}
+.sixh12{
+  color: rgb(7, 7, 7);
+}
+.sixh33{
+  color: white;
+  margin-left: 20px;
+}
+.sixh13{
+  color: rgb(3, 3, 3);
+}
+.end1{
+  color: white;
+  margin-left: 20px;
+}
+.end11{
+  color: rgb(8, 8, 8);
+}
+.sixh44{
+  color: white;
+  margin-left: 10px;
+}
+.sixh34{
+  color: white;
+  margin-left: 20px;
+}
+
+#sevencard2{
+  background-image: url(./IMG_1457.jpg);
+  background-size: cover;
+  width: 800px;
+  height: 400px;
+}
+#sevencard1{
+  width: 800px;
+  height: 400px;
+}
+
+.sevenh3{
+  color: white;
+}
+.pc7{
+  color: white;
+  margin-left: 30px;
+}
+.main{
+  margin-left: 10px;
+}
+#eaghtcard1{
+  width: 800px;
+  height: 600px}
+
+#eaghtcard2{
+  width: 800px;
+  height: 600px;
+  background-image: url(./5951944986100615772.jpg);
+  background-size: cover;
+}
+.eaght1{
+  margin-left: 20px;
+  color: white;
+}
+.pc8{
+ margin-left: 20px;
+  color: white; 
+}
+.jj{
+  color: white;
+  margin-left: 20px;
+}
+.kk{
+color: white;
+margin-left: 10px;
+}
+.main1{
+  color: white;
+}
+
+
+.alex{
+  width: 90%;
+  height:90%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-image: url(./5962884293573331103.jpg);
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
+#alexcard1{
+  width: 850px;
+  height: 520px;
+
+}
+#alexcard2{
+  width: 850px;
+  height: 520px;
+   background-image: url(./IMG_1465.jpg);
+   background-size: cover;
+}
+.alexh1{
+  margin-left: 5px;
+}
+.alexh3{
+  margin-left: 20px;
+}
+.l1{
+  margin-left: 5px;
+}
+.l2{
+  margin-left: 20px;
+  color: white;
+}
+.l3{
+  margin-left: 5px;
+}
+.l4{
+margin-left: 20px;
+color: white;
+}
+#alexcard22{
+  width: 850px;
+  height: 520px;
+  background-image: url(./IMG_1467.jpg);
+}
+#alexcard11{
+  width: 850px;
+  height: 520px;
+
+}
+.l11{
+  margin-left: 5px;
+}
+.l22{
+  margin-left: 20px;
+  color: white;
+}
+.l33{
+  margin-left: 5px;
+}
+.l44{
+  margin-left: 20px;
+  color: white;
+}
+#alexcard111{
+  width: 800px;
+}
+#alexcard222{
+  width: 800px;
+  background-image: url(./5951944986100615853.jpg);
+  background-size: cover;
+}
+.l5{
+  margin-left: 20px;
+  color: white;
+}
+.allex{
+  color: white;
+}
+#alexcard1111{
+  width: 800px;
+  height: 450px;
+}
+#alexcard2222{
+  width: 800px;
+  height: 450px;
+  background-image: url(./5951944986100615854.jpg);
+  background-size: cover;
+}
+.l555{
+  margin-left: 20px;
+  color: white;
+}
+.l55{
+  margin-left: 5px;
+}
+.sharm{
+  width: 90%;
+  height:90%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-image: url(./jh918xvx.png);
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
+#sharmcard1{
+  width: 800px;
+  height: 370px;
+}
+#sharmcard2{
+  width: 800px;
+  height: 370px;
+  background-image: url(./Ras\ Mohammed\ Reserve\ \(1\).jpg);
+  background-size: cover;
+}
+.s2{
+  color: white;
+  margin-left: 20;
+}
+.s4{
+  color: white;
+  margin-left: 20;
+}
+.s1{margin-left: 6px;
+}
+#sharmcard11{
+  width: 800px;
+  height: 300px;
+}
+#sharmcard22{
+  width: 800px;
+  height: 300px;
+  background-image: url(./69fdb7c4-9ea4-43d6-b4f5-b35814e3.jpg);
+  background-size: cover;
+}
+.s22{
+  color: white;
+  margin-left: 20px;
+}
+.s11{
+  margin-left: 7px;
+}
+#sharmcard13{
+  width: 800px;
+  height: 300px;
+}
+#sharmcard23{
+  width: 800px;
+  height: 300px;
+  background-image: url(./51eddf34-1ec6-44ef-80bb-b74fd04e.jpg);
+  background-size: cover;
+}
+.s00{
+  color: white;
+  margin-left: 20px;
+}
+.s7{
+  color: white;
+  margin-left: 20px;
+}
+.s0{
+  margin-left: 7px;
+}
+.s9{
+  margin-left: 7px;
+}
+#sharmcard44{
+  width: 800px;
+  height: 300px;
+}
+
+#sharmcard66{
+  width: 800px;
+  height: 300px;
+  background-image: url(./1zqsl465.png);
+  background-size: cover;
+} 
+.Hurghada{
+width: 90%;
+height:90%;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+background-image: url(./gva5ut4h\ \(1\).png);
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
+.H2{
+  margin-left: 15px;
+}
+.H1{
+  margin-left: 5px;
+}
+#Hurghadacard1{
+  width: 800px;
+  height: 570px;
+}
+#Hurghadacard2{
+  width: 800px;
+  height: 570px;
+  background-image: url(./gva5ut4h\ \(1\).png);
+  background-size: cover;
+} 
+.H2{
+  margin-left: 20PX;
+  color: white;
+}
+#Hurghadacard12{
+  width: 800px;
+  height: 550px;
+}
+#Hurghadacard23{
+  width: 800px;
+  height: 550px;
+  background-image: url(./pr6ndlnb.png);
+  background-size: cover; 
+}
+#Hurghadacard13{
+  width: 800px;
+  height: 500px;
+}
+#Hurghadacard24{
+  width: 800px;
+  height: 500px;
+  background-image: url(./8v9os4m8.png);
+  background-size: cover;
+}
+#sewacard1{
+  width: 800px;
+  height: 400px;
+}
+#sewacard2{
+  width: 800px;
+  height: 400px;
+  background-image: url(./5k57y4jr.png);
+}
+.se1{
+  margin-left: 20px;
+  color: white;
+}
+#sewacard12{
+  width: 800px;
+  height: 500px;
+}
+#sewacard22{
+  width: 800px;
+  height: 500px;
+  background-image: url(./u6mt6fvq.png);
+}
+.ppp{
+  margin-left: 20px;
+  color: white;
+}
+#sewacard13{
+  width: 800px;
+  height: 560px;
+}
+#sewacard23{
+  width: 800px;
+  height: 560px;
+  background-image: url(./IMG_1491.jpg);
+}
+#sewacard14{
+  width: 800px;
+  height: 460px;
+}
+#sewacard24{
+  width: 800px;
+  height: 460px;
+  background-image: url(./5k57y4jr.png);
+}
+.sewa{
+  width: 90%;
+height:90%;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+background-image: url(./82nk7q7h.png);
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
+#aswancard1{
+  width: 800px;
+  height: 460px;
+}
+#aswancard2{
+  width: 800px;
+  height: 460px;
+  background-image: url(./sx23n1i5.png);
+} 
+.aswan{
+  width: 90%;
+height:90%;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+background-image: url(./5962884293573331105.jpg);
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat; 
+}
+#aswancard12{
+  width: 800px;
+  height: 250px;
+}
+#aswancard22{
+  width: 800px;
+  height: 250px; 
+  background-image: url(./tepn5cdj.png);
+}
+
+#aswancard13{
+  width: 800px;
+  height: 250px;
+}
+#aswancard23{
+  width: 800px;
+  height: 250px; 
+  background-image: url(./6oliqv95.png);
+}
+#aswancard14{
+  width: 800px;
+  height: 250px;
+}
+#aswancard24{
+  width: 800px;
+  height: 250px; 
+  background-image: url(./txm5th5s.png);
+}
+#aswancard15{
+  width: 800px;
+  height: 650px;
+}
+#aswancard25{
+  width: 800px;
+  height: 650px;
+  background-image: url(./fzoos71g.png);  
+
+}
+.aswan{
+  width: 90%;
+  height:90%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-image: url(./5962884293573331105.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+}
+#loxorcard1{
+  width: 800px;
+  height: 450px;
+}
+#loxorcard2{
+  width: 800px;
+  height: 450px;
+  background-image: url(./tougf6cv.png);
+}
+.loxor{
+  width: 90%;
+  height:90%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-image: url(./5960632493759644695.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+#loxorcard12{
+  width: 800px;
+  height: 300px;
+}
+#loxorcard22{
+  width: 800px;
+  height: 300px;
+  background-image: url(./d45wseyu.png);
+}
+#loxorcard13{
+  width: 800px;
+  height: 300px;
+}
+#loxorcard23{
+  width: 800px;
+  height: 300px;
+  background-image: url(./pr4a8r9r.png);
+}
+#loxorcard14{
+  width: 800px;
+  height: 450px; 
+}
+#loxorcard24{
+  width: 800px;
+  height: 450px;
+  background-image: url(./27txpjcv.png);
+}
+.H111{
+  margin-left: 20px;
+  color: white;
+}
+#loxorcard15{
+  width: 800px;
+  height: 300px;
+}
+#loxorcard25{
+  width: 800px;
+  height: 300px;
+  background-image: url(./0fm3pmsb.png);
+}
+#loxorcard16{
+  width: 800px;
+  height: 400px;
+}
+#loxorcard26{
+  width: 800px;
+  height: 400px;
+  background-image: url(./ida1aw8a.png); 
+}
+.kkk{
+  margin-left: 20px;
+  color: white;
+}
+.sd2{
+  color: black;
+}
+#loxorcard17{
+  width: 800px;
+  height: 300px;
+}
+#loxorcard27{
+  width: 800px;
+  height: 300px;
+  background-image: url(./nqvqnnd9.png);
+}
+.s1111{
+  color: white;
+}
+.sd22222{
+  color: white;
+}
+.almen{
+  width: 90%;
+  height:90%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-image: url(./fs2csc72.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat; 
+}
+#almencard1{
+  width: 800px;
+  height: 800px; 
+}
+#almencard2{
+  width: 800px;
+  height: 800px; 
+  background-image: url(./147ejkw2.png);
+}
+
+
+
+/* From Uiverse.io by bhaveshxrawat */ 
+.carddd {
+  width: 800px;
+  height: 200px;
+  background: #07182E;
+  position: relative;
+  display: flex;
+  place-content: center;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.carddd h3 {
+  margin-left: 80px;
+  color: white;
+  z-index: 10000;
+  margin-right: 50px;
+
+}
+.rr{
+  z-index: 10000;
+  margin-right: 100px;
+}
+
+
+.carddd::before {
+  content: '';
+  position: absolute;
+  width: 100px;
+  background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
+  height: 500%;
+  animation: rotBGimg 3s linear infinite;
+  transition: all 0.2s linear;
+}
+
+@keyframes rotBGimg {
+  from {
+    transform: rotate(deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.carddd::after {
+  content: '';
+  position: absolute;
+  background: #07182E;
+  ;
+  inset: 5px;
+  border-radius: 15px;
+}  
+/* .card:hover:before {
+  background-image: linear-gradient(180deg, rgb(81, 255, 0), purple);
+  animation: rotBGimg 3.5s linear infinite;
+} */
+.mm{
+  width: 90%;
+  height:90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: #363636;
+}
+
+
+/* From Uiverse.io by DavidTM96 */ 
+.form {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  font-family: inherit;
+  gap: 10px;
+  padding-inline: 2em;
+  padding-bottom: 0.4em;
+  background-color: #171717;
+  //background-color: #0a192f;
+  border-radius: 20px;
+  width: 400px;
+}
+
+.form-heading {
+  text-align: center;
+  margin: 2em;
+  color: #64ffda;
+  font-size: 1.2em;
+  background-color: transparent;
+  align-self: center;
+  width: 400px;
+}
+
+.form-field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  border-radius: 10px;
+  padding: 0.6em;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #171717;
+  box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+  width: 400px;
+}
+
+.input-field {
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  color: #ccd6f6;
+  padding-inline: 1em;
+  width: 400px;
+}
+
+.sendMessage-btn {
+  cursor: pointer;
+  margin-bottom: 3em;
+  padding: 1em;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #64ffda;
+  font-weight: bold;
+  outline: 1px solid #64ffda;
+  transition: all ease-in-out 0.3s;
+  
+}
+
+.sendMessage-btn:hover {
+  transition: all ease-in-out 0.3s;
+  background-color: #64ffda;
+  color: #000;
+  cursor: pointer;
+  box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+  width: 400px;
+}
+
+.form-card1 {
+  background-image: linear-gradient(163deg, #64ffda 0%, #64ffda 100%);
+  border-radius: 22px;
+  transition: all 0.3s;
+  width: 400px;
+  margin-left: 400px;
+  margin-top: 100px;
+}
+
+.form-card1:hover {
+  box-shadow: 0px 0px 30px 1px rgba(100, 255, 218, 0.3);
+}
+
+.form-card2 {
+  border-radius: 0;
+  transition: all 0.2s;
+}
+
+.form-card2:hover {
+  transform: scale(0.98);
+  border-radius: 20px;
+}
+.qq{
+  background-color: #0e0f0ad7;
+}
+
+
+
